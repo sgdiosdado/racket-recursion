@@ -55,3 +55,6 @@
 (define (fibot n)
   (fibotAux n 1 0)
   )
+
+; NOTA: time(fibo(40)) -> CPU TIME: 5476, REAL TIME: 5485
+; NOTA: time(fibot(40)) -> CPU TIME: 0, REAL TIME: 0SSSSSSSS
